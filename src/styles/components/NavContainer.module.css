@@ -1,0 +1,38 @@
+.navContainer {
+  background: var(--title);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navContainer li {
+  font-size: 1rem;
+}
+.navContainer img {
+  height: auto;
+  width: auto;
+  max-width: 8rem;
+  max-height: 4rem;
+}
+
+/* }
+.experienceBar > div {
+  flex: 1;
+  height: 4px;
+  border-radius: 4px;
+  background: var(--gray-line);
+  margin: 0 1.5rem;
+  position: relative;
+}
+
+.experienceBar > div > div {
+  height: 4px;
+  border-radius: 4px;
+  background: var(--green);
+}
+
+span.currentExperience {
+  position: absolute;
+  top: 12px;
+  transform: translateX(-50%);
+} */
