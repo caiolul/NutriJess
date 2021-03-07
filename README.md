@@ -1,4 +1,4 @@
-#Nutrijess 
+# NutriJess 
 
 Blog for nutritionist jessyka using nextjs
 
