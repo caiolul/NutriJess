@@ -1,15 +1,14 @@
-import React, { useState } from 'react';
-import { Navbar, NavbarBrand, NavbarToggler } from 'reactstrap';
+import React from 'react';
+import { Navbar, NavbarBrand, Media } from 'reactstrap';
 
 const NavContainer: React.FC = () => {
-  const [isOpen, setIsOpen] = useState(false);
-
-  const toggle = () => setIsOpen(!isOpen);
   return (
     <div>
       <Navbar color="light" light fixed="top" shadow="true" expand="md">
-        <NavbarBrand href="/">NutriJess</NavbarBrand>
-        <NavbarToggler onClick={toggle} />
+        <Media>
+          <Media object data-src="img/logo.png" />
+        </Media>
+        <NavbarBrand>NutriJess</NavbarBrand>
       </Navbar>
     </div>
   );
