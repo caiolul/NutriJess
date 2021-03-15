@@ -1,7 +1,11 @@
 import '../styles/global.css';
 import React from 'react';
 
-const MyApp: React.FC = ({ Component, pageProps }) => (
+interface AppPropsType {
+  Component: any;
+  pageProps: any;
+}
+const MyApp: React.FC<AppPropsType> = ({ Component, pageProps }) => (
   <Component {...pageProps} />
 );
 // function MyApp({ Component, pageProps }) {
