@@ -7,9 +7,7 @@ const Profile: React.FC = () => {
       <Container>
         <Row>
           <Col className="sm-6">
-            <h1 className="display-4 mb-4">
-              Ola meu nome é Jessyka Mendes uma nutricionista!!
-            </h1>
+            <h1 className="display-4 mb-4">Ola meu nome é Jessyka Mendes.</h1>
             <p className="lead mb-4">
               Graduada em Nutricão com experiência em cuidar de indivíduos e
               famílias a melhorar seus hábitos de saúde. A nutrição é a
@@ -24,8 +22,6 @@ const Profile: React.FC = () => {
             <img
               src="img/img.jpeg"
               alt="Ola sou Jessyka"
-              width="700"
-              height="400"
               className="img-fluid"
             />
           </Col>
